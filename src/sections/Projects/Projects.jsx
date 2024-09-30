@@ -2,6 +2,9 @@ import styles from './ProjectsStyles.module.css';
 import TindillElectric from '../../assets/TindillElectricLogo.png';
 import boardgame from '../../assets/909gameslogo.png';
 import blacksettlers from '../../assets/blacksettlerslogo.png';
+import convo from '../../assets/convo.png';
+import gemini from '../../assets/gemini.png';
+import hello from '../../assets/hello.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -18,14 +21,32 @@ function Projects() {
         <ProjectCard
           src={boardgame}
           link="https://9on9.netlify.app/"
-          h3="909 Games"
-          p="909 Board Games"
+          h3="9on9 Games"
+          p="9on9 Board Games React based website"
         />
         <ProjectCard
           src={blacksettlers}
           link="https://blacksettlers.ca/"
           h3="BlackSettlers"
           p="First Black Settlers of Alberta"
+        />
+        <ProjectCard
+          src={convo}
+          link="https://convoreact.netlify.app/"
+          h3="Convo"
+          p="Realtime Chat App using Reactjs and Firebase"
+        />
+        <ProjectCard
+          src={gemini}
+          link="https://mygeminiclonereact.netlify.app/"
+          h3="gemini"
+          p="Gemini clone using Reactjs and Google gemini API"
+        />
+        <ProjectCard
+          src={hello}
+          link="https://karan-cv.netlify.app/"
+          h3="Portfolio"
+          p="Developed My Friend's Porfolio"
         />
         
       </div>
