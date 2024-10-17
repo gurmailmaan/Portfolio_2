@@ -5,13 +5,22 @@ import blacksettlers from '../../assets/blacksettlerslogo.png';
 import convo from '../../assets/convo.png';
 import gemini from '../../assets/gemini.png';
 import hello from '../../assets/hello.png';
+import favicon from '../../assets/favicon.png';
 import ProjectCard from '../../common/ProjectCard';
+
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+
+      <ProjectCard
+          src={favicon}
+          link="https://maangurmail.com"
+          h3="Portfolio"
+          p="My old Porfolio Developed using React and Bootstrap"
+        />
         <ProjectCard
           src={TindillElectric}
           link="https://tindillelectric.com/"
@@ -48,6 +57,7 @@ function Projects() {
           h3="Portfolio"
           p="Developed My Friend's Porfolio"
         />
+        
         
       </div>
     </section>
